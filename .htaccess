@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^elcontadordecaracteres.com [NC]
+RewriteRule ^(.*)$ http://www.elcontadordecaracteres.com/$1 [L,R=301]

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>El contador de caracteres</title>
+
+  <meta http-equiv="Content-Language" content="es"/>
+  <meta name="distribution" content="global"/>
+  <meta name="description" content="Contador de caracteres y palabras en línea."/>
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body class="home">
+  <div id="wrapper">
+    <div id="header">
+      <div class="row">
+        <div class="column twelve">
+          <h1 id="logo">
+            <a href="#" title="elcontadordecaracteres.com"><img src="images/logo.png" alt=""></a>
+          </h1>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <div class="row">
+        <div class="column twelve">
+          <form action="#" class="custom counterForm">
+            <textarea name="counter" id="counter" cols="10" rows="1" placeholder="ESCRIBA SU TEXTO"></textarea>
+            <div class="row">
+              <div class="column six centered">
+                <div class="row">
+                  <div class="column six">
+                    <div class="counterBox">
+                      <div class="number characteres-count">
+                        0
+                      </div>
+                      <div class="txt">caracteres</div>
+                    </div>
+                  </div>
+                  <div class="column six">
+                    <div class="counterBox">
+                      <div class="number words-count">
+                        0
+                      </div>
+                      <div class="txt">Palabras</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column twelve">
+                <div class="about text">
+                  <p><strong>Elcontadordecaracteres.com</strong> es una herramienta web que le permite contar los caracteres y las palabras que componen un texto. Para empezar a utilizarlo lo &uacute;nico que debe hacer es copiar y pegar su texto o simplemente digitarlo sobre la caja de texto ubicada en la parte de arriba, de esta forma los contadores se actualizaran arrojando el n&uacute;mero de caracteres y el n&uacute;mero de palabras empleadas en el texto ingresado.</p>
+                  <br>
+                  <p>A continuación compartimos algunos de los límites de caracteres más conocidos:</p>
+                  <ul>
+                    <li>La cantidad máxima para un mensaje en Twitter es de 140 caracteres.</li>
+                    <li>La cantidad máxima para un para un mensaje de texto enviado desde Skype es de 160 caracateres.</li>
+                    <li>Los Anuncios de google utilizan una cantidad máxima de 25 caracteres para el título del anuncio, 70 caracteres para el cuerpo del anuncio y 35 para la url que se muestra en el anuncio.</li>
+                    <li>La cantidad máxima para una URL sobre Internnet Explorer es de 2083 caracteres.</li>
+                    <li>La cantidad máxima para una etiqueta de título HTML debería ser de 70 caracteres.</li>
+                  </ul>
+                </div>
+                <div class="link-nav link-contacto"><a title="Contactenos" href="contactenos.html">CONTACTENOS</a><div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column twelve">
+                <div class="pauta-footer">
+                  <img src="images/pauta.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-49050017-1', 'elcontadordecaracteres.com');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
